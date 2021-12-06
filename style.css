@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+#card-content {
+  background: #b3ebf5;
+  width: 100%;
+  max-width: 600px;
+  padding: 5px;
+}
+#storeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#quantity-product {
+  width: 100%;
+}
+#price-product {
+  width: 100%;
+}
+.separator {
+  width: 100%;
+  background: gray;
+  height: 1px;
+}
